@@ -4,6 +4,7 @@
 # Python cache
 __pycache__/
 *.py[cod]
+*.pyo
 
 # Virtual environment
 venv/
@@ -12,6 +13,12 @@ venv/
 # ChromaDB database
 chroma_db/
 
+# FAISS index (if you use it later)
+faiss_index/
+
+# Uploaded files
+uploads/
+
 # IDE files
 .vscode/
 .idea/
@@ -19,3 +26,9 @@ chroma_db/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
